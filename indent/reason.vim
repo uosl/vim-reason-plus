@@ -23,7 +23,7 @@ setlocal cinoptions=L0,(s,Ws,J1,j1,m1,{0,f0s
 " cinkeys is ignored if indentexpr is activated so this setting is useless. See indentkeys below.
 setlocal cinkeys=0{,0},0),!^F,o,O,0[,0]
 " Don't think cinwords will actually do anything at all... never mind
-setlocal cinwords=for,if,else,while,loop,impl,mod,unsafe,trait,struct,enum,fun,let,extern
+setlocal cinwords=for,if,else,while,loop,impl,mod,unsafe,trait,struct,enum,fun,extern
 
 " Some preliminary settings
 setlocal nolisp		" Make sure lisp indenting doesn't supersede us
