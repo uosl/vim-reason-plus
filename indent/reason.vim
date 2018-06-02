@@ -19,7 +19,7 @@ let b:did_indent = 1
 " fN (See the docs) - additional indentation *w.r.t the "prevailing indent" only applies to blocks
 " *not* in nested braces!  We want it to match the blocks *inside* nested braces - and be zero, but
 " the problem is that the "prevailing indent" not inside of braces is different than inside braces.
-setlocal cinoptions=L0,(0,Ws,J1,j1,m1,{0,f0s
+setlocal cinoptions=L0,(s,Ws,J1,j1,m1,{0,f0s
 " cinkeys is ignored if indentexpr is activated so this setting is useless. See indentkeys below.
 setlocal cinkeys=0{,0},0),!^F,o,O,0[,0]
 " Don't think cinwords will actually do anything at all... never mind
